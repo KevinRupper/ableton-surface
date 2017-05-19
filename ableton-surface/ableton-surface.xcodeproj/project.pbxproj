@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E6B7A521E635B2500117B17 /* AbletonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B7A511E635B2500117B17 /* AbletonProtocol.swift */; };
+		9E8B60951E7B099400D0D4BA /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8B60941E7B099400D0D4BA /* Socket.swift */; };
+		9EA4E8491E4746FA00DF2ECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4E8481E4746FA00DF2ECA /* AppDelegate.swift */; };
+		9EA4E84B1E4746FA00DF2ECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4E84A1E4746FA00DF2ECA /* ViewController.swift */; };
+		9EA4E84E1E4746FA00DF2ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA4E84C1E4746FA00DF2ECA /* Main.storyboard */; };
+		9EA4E8501E4746FA00DF2ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA4E84F1E4746FA00DF2ECA /* Assets.xcassets */; };
+		9EA4E8531E4746FA00DF2ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA4E8511E4746FA00DF2ECA /* LaunchScreen.storyboard */; };
+		9EA4E8631E474E3100DF2ECA /* ClipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA4E8621E474E3100DF2ECA /* ClipCell.swift */; };
+		9EAE65471E5E33BD00576E8A /* CollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE65461E5E33BD00576E8A /* CollectionViewLayout.swift */; };
+		9EDB34341E6DE62E0020A4DC /* UdpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDB34331E6DE62E0020A4DC /* UdpClient.swift */; };
+		9EF864CA1E7D5CFE0023E0AF /* OscInt32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF864C91E7D5CFE0023E0AF /* OscInt32.swift */; };
+		9EFD91A81E77248B003B5A6F /* UdpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFD91A71E77248B003B5A6F /* UdpServer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E6B7A511E635B2500117B17 /* AbletonProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AbletonProtocol.swift; path = Source/AbletonProtocol.swift; sourceTree = "<group>"; };
+		9E8B60941E7B099400D0D4BA /* Socket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Source/Socket.swift; sourceTree = "<group>"; };
+		9EA4E8451E4746FA00DF2ECA /* ableton-surface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ableton-surface.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA4E8481E4746FA00DF2ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Source/AppDelegate.swift; sourceTree = "<group>"; };
+		9EA4E84A1E4746FA00DF2ECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Source/ViewController.swift; sourceTree = "<group>"; };
+		9EA4E84D1E4746FA00DF2ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EA4E84F1E4746FA00DF2ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EA4E8521E4746FA00DF2ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EA4E8541E4746FA00DF2ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EA4E8621E474E3100DF2ECA /* ClipCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClipCell.swift; path = Source/ClipCell.swift; sourceTree = "<group>"; };
+		9EAE65461E5E33BD00576E8A /* CollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewLayout.swift; path = Source/CollectionViewLayout.swift; sourceTree = "<group>"; };
+		9EDB34331E6DE62E0020A4DC /* UdpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UdpClient.swift; path = Source/UdpClient.swift; sourceTree = "<group>"; };
+		9EF864C91E7D5CFE0023E0AF /* OscInt32.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OscInt32.swift; path = Source/OscInt32.swift; sourceTree = "<group>"; };
+		9EFD91A71E77248B003B5A6F /* UdpServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UdpServer.swift; path = Source/UdpServer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EA4E8421E4746FA00DF2ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E27D66A1E5A200B00D5EF6C /* network */ = {
+			isa = PBXGroup;
+			children = (
+				9EDB34331E6DE62E0020A4DC /* UdpClient.swift */,
+				9EFD91A71E77248B003B5A6F /* UdpServer.swift */,
+				9E8B60941E7B099400D0D4BA /* Socket.swift */,
+			);
+			name = network;
+			sourceTree = "<group>";
+		};
+		9E6A83F71E5F64D500AF7C67 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				9EAE65461E5E33BD00576E8A /* CollectionViewLayout.swift */,
+			);
+			name = collectionView;
+			sourceTree = "<group>";
+		};
+		9EA4E83C1E4746FA00DF2ECA = {
+			isa = PBXGroup;
+			children = (
+				9EA4E8471E4746FA00DF2ECA /* ableton-surface */,
+				9EA4E8461E4746FA00DF2ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EA4E8461E4746FA00DF2ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EA4E8451E4746FA00DF2ECA /* ableton-surface.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EA4E8471E4746FA00DF2ECA /* ableton-surface */ = {
+			isa = PBXGroup;
+			children = (
+				9EA4E8CC1E47966900DF2ECA /* source */,
+				9EA4E8CD1E47968300DF2ECA /* resources */,
+				9EA4E84C1E4746FA00DF2ECA /* Main.storyboard */,
+				9EA4E8511E4746FA00DF2ECA /* LaunchScreen.storyboard */,
+			);
+			name = "ableton-surface";
+			path = "ios-ableton-controller";
+			sourceTree = "<group>";
+		};
+		9EA4E8611E474E1200DF2ECA /* customCells */ = {
+			isa = PBXGroup;
+			children = (
+				9EA4E8621E474E3100DF2ECA /* ClipCell.swift */,
+			);
+			name = customCells;
+			sourceTree = "<group>";
+		};
+		9EA4E8CC1E47966900DF2ECA /* source */ = {
+			isa = PBXGroup;
+			children = (
+				9EF864C61E7D5B180023E0AF /* OscTypes */,
+				9E6A83F71E5F64D500AF7C67 /* collectionView */,
+				9E27D66A1E5A200B00D5EF6C /* network */,
+				9EA4E8611E474E1200DF2ECA /* customCells */,
+				9EA4E84A1E4746FA00DF2ECA /* ViewController.swift */,
+				9EA4E8481E4746FA00DF2ECA /* AppDelegate.swift */,
+				9E6B7A511E635B2500117B17 /* AbletonProtocol.swift */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		9EA4E8CD1E47968300DF2ECA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				9EA4E84F1E4746FA00DF2ECA /* Assets.xcassets */,
+				9EA4E8541E4746FA00DF2ECA /* Info.plist */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		9EF864C61E7D5B180023E0AF /* OscTypes */ = {
+			isa = PBXGroup;
+			children = (
+				9EF864C91E7D5CFE0023E0AF /* OscInt32.swift */,
+			);
+			name = OscTypes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EA4E8441E4746FA00DF2ECA /* ableton-surface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EA4E8571E4746FA00DF2ECA /* Build configuration list for PBXNativeTarget "ableton-surface" */;
+			buildPhases = (
+				9EA4E8411E4746FA00DF2ECA /* Sources */,
+				9EA4E8421E4746FA00DF2ECA /* Frameworks */,
+				9EA4E8431E4746FA00DF2ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ableton-surface";
+			productName = "ios-ableton-controller";
+			productReference = 9EA4E8451E4746FA00DF2ECA /* ableton-surface.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EA4E83D1E4746FA00DF2ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Guerrilla Dev";
+				TargetAttributes = {
+					9EA4E8441E4746FA00DF2ECA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B86J82ANC2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9EA4E8401E4746FA00DF2ECA /* Build configuration list for PBXProject "ableton-surface" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EA4E83C1E4746FA00DF2ECA;
+			productRefGroup = 9EA4E8461E4746FA00DF2ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EA4E8441E4746FA00DF2ECA /* ableton-surface */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EA4E8431E4746FA00DF2ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA4E8531E4746FA00DF2ECA /* LaunchScreen.storyboard in Resources */,
+				9EA4E8501E4746FA00DF2ECA /* Assets.xcassets in Resources */,
+				9EA4E84E1E4746FA00DF2ECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EA4E8411E4746FA00DF2ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA4E84B1E4746FA00DF2ECA /* ViewController.swift in Sources */,
+				9E8B60951E7B099400D0D4BA /* Socket.swift in Sources */,
+				9EFD91A81E77248B003B5A6F /* UdpServer.swift in Sources */,
+				9EF864CA1E7D5CFE0023E0AF /* OscInt32.swift in Sources */,
+				9EDB34341E6DE62E0020A4DC /* UdpClient.swift in Sources */,
+				9EA4E8491E4746FA00DF2ECA /* AppDelegate.swift in Sources */,
+				9EA4E8631E474E3100DF2ECA /* ClipCell.swift in Sources */,
+				9EAE65471E5E33BD00576E8A /* CollectionViewLayout.swift in Sources */,
+				9E6B7A521E635B2500117B17 /* AbletonProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EA4E84C1E4746FA00DF2ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EA4E84D1E4746FA00DF2ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EA4E8511E4746FA00DF2ECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EA4E8521E4746FA00DF2ECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EA4E8551E4746FA00DF2ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9EA4E8561E4746FA00DF2ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EA4E8581E4746FA00DF2ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B86J82ANC2;
+				INFOPLIST_FILE = "ios-ableton-controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guerrilla.ableton-surface";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9EA4E8591E4746FA00DF2ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B86J82ANC2;
+				INFOPLIST_FILE = "ios-ableton-controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guerrilla.ableton-surface";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EA4E8401E4746FA00DF2ECA /* Build configuration list for PBXProject "ableton-surface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA4E8551E4746FA00DF2ECA /* Debug */,
+				9EA4E8561E4746FA00DF2ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EA4E8571E4746FA00DF2ECA /* Build configuration list for PBXNativeTarget "ableton-surface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA4E8581E4746FA00DF2ECA /* Debug */,
+				9EA4E8591E4746FA00DF2ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EA4E83D1E4746FA00DF2ECA /* Project object */;
+}
